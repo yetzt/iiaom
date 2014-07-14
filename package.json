@@ -1,8 +1,11 @@
 {
 	"name": "iiaom",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "cryptoidentity for everyone",
 	"main": "iiaom.js",
+	"bin": {
+		"iiaom": "./bin/iiaom.js"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -14,20 +17,32 @@
 		"crypto",
 		"identity"
 	],
-	"author": ["Namzezam", "Erez Elul", "Yetzt"],
-	"contributors": [{
-		"name": "Namzezam"
-	},{
-		"name": "Erez Elul"
-	},{
-		"name": "yetzt"
-	}]
+	"author": [
+		"Namzezam",
+		"Erez Elul",
+		"Yetzt"
+	],
+	"contributors": [
+		{
+			"name": "Namzezam"
+		},
+		{
+			"name": "Erez Elul"
+		},
+		{
+			"name": "yetzt"
+		}
+	],
 	"license": "You are not allowed to use, produce from or design from this or its part, anything contained with the aim to kill,to cause harm to or to monitor people and any permission beside that is given only under the [Agpl License](http://www.gnu.org/licenses/agpl-3.0.html)!",
 	"bugs": {
 		"url": "https://github.com/yetzt/iiaom/issues"
 	},
 	"homepage": "https://github.com/yetzt/iiaom",
 	"dependencies": {
-		"openpgp": "^0.6.3"
-	}
+		"openpgp": "^0.6.3",
+		"archiver": "^0.10.1",
+		"commander": ">= 2.2.0",
+		"read": ">= 1.0.5"
+	},
+	"fileformat": 1
 }
