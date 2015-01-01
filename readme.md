@@ -1,3 +1,5 @@
+*development moved [to this repository](https://github.com/comcomist/iiaom)*
+
 # iiaom
 
 Cryptoidentity for everyone. [the idea](http://namzezam.wikidot.com/blog:12).
